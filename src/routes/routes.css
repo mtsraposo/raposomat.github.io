@@ -1,0 +1,13 @@
+.portfolio {
+    display: flex
+}
+
+.portfolio ul {
+    padding: 1rem;
+    flex-direction: row
+}
+
+.portfolio Link {
+    display: block;
+    margin: 1rem 0;
+}

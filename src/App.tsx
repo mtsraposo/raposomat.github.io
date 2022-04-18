@@ -6,16 +6,17 @@ import {Outlet, Link} from "react-router-dom";
 function App() {
     return (
             <div className="App">
+                <nav>
+                    <Link to="portfolio">Portfolio</Link>
+                </nav>
                 <header className="App-header">
-                    <nav></nav>
                     <p>
                         Hello, <br/>
                         I'm Matheus Raposo, <br/>
                         Full Stack Developer
                     </p>
-                    <Link to="/portfolio">Portfolio</Link>
+                    <Outlet/>
                 </header>
-                <Outlet/>
             </div>
     );
 }
