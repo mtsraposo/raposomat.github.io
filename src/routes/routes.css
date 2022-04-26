@@ -1,3 +1,8 @@
+.home {
+    color: whitesmoke;
+    font-size: calc(30px + 2vmin);
+}
+
 .portfolio {
     display: flex
 }
@@ -7,7 +12,23 @@
     flex-direction: row
 }
 
-.portfolio Link {
-    display: block;
-    margin: 1rem 0;
+.portfolio-link {
+    /*text-decoration: none;*/
+    color: whitesmoke;
+}
+
+.about h3{
+    font-size: calc(30px + 2vmin);
+    color: whitesmoke;
+}
+
+.about p{
+    text-align: justify;
+    font-size: calc(15px + 2vmin);
+    color: whitesmoke;
+}
+
+.contact p{
+    color: whitesmoke;
+    font-size: calc(15px + 2vmin);
 }
