@@ -2,12 +2,14 @@ import React from 'react';
 
 type Portfolio = {
     name: string,
+    path: string,
     number: Number
 }
 
 let portfolio: Array<Portfolio> = [
     {
-        name: "Jamming",
+        name: "Boss Machine",
+        path: "boss-machine",
         number: 1
     }
 ];
