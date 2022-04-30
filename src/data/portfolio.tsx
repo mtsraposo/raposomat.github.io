@@ -2,15 +2,20 @@ import React from 'react';
 
 type Portfolio = {
     name: string,
-    path: string,
-    number: Number
+    url: string,
+    id: Number
 }
 
 let portfolio: Array<Portfolio> = [
     {
         name: "Boss Machine",
-        path: "boss-machine",
-        number: 1
+        url: "https://raposomat.github.io/boss-machine",
+        id: 1
+    },
+    {
+        name: "Jammming",
+        url: "http://ohmyjam.surge.sh",
+        id: 2
     }
 ];
 

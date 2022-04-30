@@ -10,11 +10,14 @@ class Portfolio extends React.Component {
                 <div className="portfolio">
                     <ul>
                         {portfolio.map((project) => (
-                                <a href={`https://raposomat.github.io/${project.path}`}
-                                      key={project.number.toString()}
-                                      className="portfolio-link">
-                                    {`${project.number}. ${project.name}`}
-                                </a>
+                                <div>
+                                    <a href={project.url}
+                                       key={project.id.toString()}
+                                       className="portfolio-link"
+                                       target="_blank">
+                                        {`${project.id}. ${project.name}`}
+                                    </a>
+                                </div>
                         ))}
                     </ul>
                 </div>
